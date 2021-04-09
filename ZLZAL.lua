@@ -863,7 +863,7 @@ end
 return false
 end
 if DevZLZALW(msg) then
-local bl = ' 𖤐 اهلا عزيزي آلمـطـور\n 𖤐 آنت آلمـطـور آلآسـآسـي للبوت\n┉  ┉  ┉  ┉  ┉  ┉  ┉  ┉ء\n 𖤐 تسـتطـيع‌‏ آلتحگم باوامر البوت\n 𖤐 من خلال الكيبورد الخاص بك\n 𖤐 قناة سورس البوت [اضغط هنا](t.me/uXxUxu)'
+local bl = ' 𖤐 اهلا عزيزي آلمـطـور\n 𖤐 آنت آلمـطـور آلآسـآسـي للبوت\n┉  ┉  ┉  ┉  ┉  ┉  ┉  ┉ء\n 𖤐 تسـتطـيع‌‏ آلتحگم باوامر البوت\n 𖤐 من خلال الكيبورد الخاص بك\n 𖤐 قناة سورس البوت [اضغط هنا](t.me/EIEAE)'
 local keyboard = {
 {'الاحصائيات 𖤐','قناه تحديثات البوت 𖤐'},
 {'تعطيل التواصل 𖤐','تفعيل التواصل 𖤐'},
@@ -890,7 +890,7 @@ local start = database:get(bot_id.."Start:Bot")
 if start then 
 SourceZLZALr = start
 else
-SourceZLZALr = '𖤐 اهلا عزيزي\n 𖤐 انا بوت اسمي '..Namebot..'\n 𖤐 اختصاصي حمايه الكروبات\n 𖤐 من تكرار والسبام والتوجيه والخ…\n 𖤐 لتفعيلي اتبع الاخطوات…↓\n 𖤐 اضفني الي مجموعتك وقم بترقيتي ادمن واكتب كلمه { تفعيل }  ويستطيع »{ منشئ او المشرفين } بتفعيل فقط\n[ 𖤐 [قناة سورس البوت](http://t.me/uXxUxu)'
+SourceZLZALr = '𖤐 اهلا عزيزي\n 𖤐 انا بوت اسمي '..Namebot..'\n 𖤐 اختصاصي حمايه الكروبات\n 𖤐 من تكرار والسبام والتوجيه والخ…\n 𖤐 لتفعيلي اتبع الاخطوات…↓\n 𖤐 اضفني الي مجموعتك وقم بترقيتي ادمن واكتب كلمه { تفعيل }  ويستطيع »{ منشئ او المشرفين } بتفعيل فقط\n[ 𖤐 [قناة سورس البوت](http://t.me/EIEAE)'
 end 
 send(msg.chat_id_, msg.id_, SourceZLZALr) 
 end
@@ -1063,7 +1063,7 @@ send(msg.chat_id_, msg.id_,' 𖤐 اصدار سورس زلزال \n 𖤐 الا�
 end
 if text == 'قناه تحديثات البوت 𖤐' and DevZLZALW(msg) then 
 database:del(bot_id..'Srt:Bot') 
-send(msg.chat_id_, msg.id_,' 𖤐 [تحديثات البوت](t.me/uXxUxu) \n 𖤐 [قناه السورس](t.me/uXxUxu)')
+send(msg.chat_id_, msg.id_,' 𖤐 [تحديثات البوت](t.me/EIEAE) \n 𖤐 [قناه السورس](t.me/EIEAE)')
 end
 if text == "ضع اسم للبوت 𖤐" and DevZLZALW(msg) then  
 database:setex(bot_id..'Set:Name:Bot'..msg.sender_user_id_,300,true) 
@@ -2590,14 +2590,10 @@ Text = [[
 ⍆══•═══𝙕𝙇══•═══⍅
  𖤐 ↬𝙕𝙇𝙕𝘼𝙇 𝙏𝙀𝘼𝙈
 ⍆══•═══𝙕𝙇══•═══⍅
- 𖤐 ↬[Channel ZLZAL](t.me/uXxUxu) 
-⍆══•═══𝙕𝙇══•═══⍅
- 𖤐 ↬[Information](t.me/uXxUxu)
+ 𖤐 ↬[Channel ZLZAL](t.me/EIEAE) 
 ⍆══•═══𝙕𝙇══•═══⍅
  𖤐 ↬[DEVELOPER](t.me/uXxUxu)
 ⍆══•═══𝙕𝙇══•═══⍅
- 𖤐 ↬[To talk to us](t.me/uXxUxu)
- ⍆══•═══𝙕𝙇══•═══⍅
 ]]
 send(msg.chat_id_, msg.id_,Text)
 return false
@@ -10454,7 +10450,7 @@ Text = [[
 *𖤐م9 ◂ اوامر مطور الاساسي* 
 *𖤐م10 ◂ اوامر الاعضاء*
 ٴ⍆══•═══𝙕𝙇══•═══⍅ٴ
-彡 .[𝙕𝙇𝙕𝘼𝙇 𝙏𝙀𝘼𝙈](t.me/uXxUxu)➢ 
+彡 .[𝙕𝙇𝙕𝘼𝙇 𝙏𝙀𝘼𝙈](t.me/EIEAE)➢ 
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -10509,7 +10505,7 @@ Text = [[
 𖤐 الجهات
 𖤐 الاشعارات
 ⊱•═══════════•⊰
-彡 .[𝙕𝙇𝙕𝘼𝙇 𝙏𝙀𝘼𝙈](t.me/uXxUxu)➢
+彡 .[𝙕𝙇𝙕𝘼𝙇 𝙏𝙀𝘼𝙈](t.me/EIEAE)➢
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -10565,7 +10561,7 @@ Text = [[
 𖤐 نسبه الغباء
 𖤐 ءall
  ⊱•═══════════•⊰
-彡 .[𝙕𝙇𝙕𝘼𝙇 𝙏𝙀𝘼𝙈](t.me/uXxUxu)➢
+彡 .[𝙕𝙇𝙕𝘼𝙇 𝙏𝙀𝘼𝙈](t.me/EIEAE)➢
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -10603,7 +10599,7 @@ Text = [[
 𖤐 وصف
 𖤐 تكرار + عدد
  ⊱•═══════════•⊰
-彡 .[𝙕𝙇𝙕𝘼𝙇 𝙏𝙀𝘼𝙈](t.me/uXxUxu)➢
+彡 .[𝙕𝙇𝙕𝘼𝙇 𝙏𝙀𝘼𝙈](t.me/EIEAE)➢
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -10651,7 +10647,7 @@ Text = [[
 𖤐 امر 
 𖤐 الاوامر المضافه
 ⊱•═══════════•⊰
-彡 .[𝙕𝙇𝙕𝘼𝙇 𝙏𝙀𝘼𝙈](t.me/uXxUxu)➢
+彡 .[𝙕𝙇𝙕𝘼𝙇 𝙏𝙀𝘼𝙈](t.me/EIEAE)➢
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -10704,7 +10700,7 @@ Text = [[
 𖤐 تغير امر الاوامر
 𖤐 تغير امر م1 ~ الئ م10
 ⊱•═══════════•⊰
-彡 .[𝙕𝙇𝙕𝘼𝙇 𝙏𝙀𝘼𝙈](t.me/uXxUxu)➢
+彡 .[𝙕𝙇𝙕𝘼𝙇 𝙏𝙀𝘼𝙈](t.me/EIEAE)➢
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -10774,7 +10770,7 @@ Text = [[
 𖤐 نسبه الانوثه
 𖤐 نسبه الغباء
 ⊱•═══════════•⊰
-彡 .[𝙕𝙇𝙕𝘼𝙇 𝙏𝙀𝘼𝙈](t.me/uXxUxu)➢
+彡 .[𝙕𝙇𝙕𝘼𝙇 𝙏𝙀𝘼𝙈](t.me/EIEAE)➢
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -10833,7 +10829,7 @@ Text = [[
 𖤐 رفع + تنزيل ← الحاته
 𖤐 تاك للحاتات
 ⊱•═══════════•⊰
-彡 .[𝙕𝙇𝙕𝘼𝙇 𝙏𝙀𝘼𝙈](t.me/uXxUxu)➢
+彡 .[𝙕𝙇𝙕𝘼𝙇 𝙏𝙀𝘼𝙈](t.me/EIEAE)➢
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -10867,7 +10863,7 @@ Text = [[
 𖤐 اذاعه 
 𖤐 ردود المطور 
  ⊱•═══════════•⊰
-彡 .[𝙕𝙇𝙕𝘼𝙇 𝙏𝙀𝘼𝙈](t.me/uXxUxu)➢
+彡 .[𝙕𝙇𝙕𝘼𝙇 𝙏𝙀𝘼𝙈](t.me/EIEAE)➢
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -10948,7 +10944,7 @@ Text = [[
 𖤐 تنظيف المشتركين
 𖤐 تنظيف الكروبات
 ⊱•═══════════•⊰
-彡 .[𝙕𝙇𝙕𝘼𝙇 𝙏𝙀𝘼𝙈](t.me/uXxUxu)➢
+彡 .[𝙕𝙇𝙕𝘼𝙇 𝙏𝙀𝘼𝙈](t.me/EIEAE)➢
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -10982,7 +10978,7 @@ Text = [[
 𖤐 شنو رئيك بهاي بالرد
 𖤐 تحب هذا
 ⊱•═══════════•⊰
-彡 .[𝙕𝙇𝙕𝘼𝙇 𝙏𝙀𝘼𝙈](t.me/uXxUxu)➢
+彡 .[𝙕𝙇𝙕𝘼𝙇 𝙏𝙀𝘼𝙈](t.me/EIEAE)➢
 ]]
 send(msg.chat_id_, msg.id_,(help_text or Text)) 
 return false
@@ -11355,7 +11351,7 @@ name = string.gsub(name,'😸','😹😹😹😹😹😹😹😹😸😹😹😹
 name = string.gsub(name,'☠','💀💀💀💀💀💀💀☠💀💀💀💀💀')
 name = string.gsub(name,'🐼','👻👻👻🐼👻👻👻👻👻👻👻')
 name = string.gsub(name,'🐇','🕊🕊🕊🕊🕊🐇🕊🕊🕊🕊')
-name = string.gsub(name,'🌑','🌚🌚??🌚🌚🌑🌚🌚🌚')
+name = string.gsub(name,'🌑','🌚🌚🌚🌚🌚🌑🌚🌚🌚')
 name = string.gsub(name,'🌚','🌑🌑🌑🌑🌑🌚🌑🌑🌑')
 name = string.gsub(name,'⭐️','🌟🌟🌟🌟🌟🌟🌟🌟⭐️🌟🌟🌟')
 name = string.gsub(name,'✨','💫💫💫💫💫✨💫💫💫💫')
@@ -11570,7 +11566,7 @@ Text_Games = [[
  𖤐 لعبه الحزوره ~⪼لعبة التفكير 
  𖤐 لعبه المعاني ~⪼ العبه الشهيره 
 •━━━━━━━━━━━━━•ٴ
-彡 .[𝙕𝙇𝙕𝘼𝙇 𝙏𝙀𝘼𝙈](t.me/uXxUxu)➢
+彡 .[𝙕𝙇𝙕𝘼𝙇 𝙏𝙀𝘼𝙈](t.me/EIEAE)➢
 ]]
 send(msg.chat_id_, msg.id_,Text_Games) 
 end
